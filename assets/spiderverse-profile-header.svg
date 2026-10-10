@@ -72,9 +72,8 @@
     <animate attributeName="d" dur="4.8s" repeatCount="indefinite" values="M 785 0 Q 752 90 668 110;M 785 0 Q 715 62 620 95;M 785 0 Q 810 110 736 155;M 785 0 Q 752 90 668 110"/>
   </path>
   <!-- Original red-and-blue masked web-slinger silhouette. -->
-  <g id="swing-motion">
-    <animateMotion dur="6.2s" repeatCount="indefinite" rotate="auto" path="M 0,0 C 90,-70 190,-55 220,10 S 150,145 35,90 S -35,30 0,0"/>
-    <g transform="translate(665 116) rotate(-22)">
+  <g id="swinging-web-slinger" transform="translate(665 116) rotate(-22)">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0; -38 10; -76 7; -34 -4; 0 0" dur="6.2s" repeatCount="indefinite" />
     <animateTransform attributeName="transform" type="rotate" additive="sum" values="-6;8;-3;-6" dur="2.8s" repeatCount="indefinite"/>
     <g stroke="#081A45" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M -10 0 Q -25 16 -39 32 L -50 28 Q -39 10 -23 -5" fill="url(#blue)"/>
@@ -97,8 +96,6 @@
         <path d="M 42 -30 L 52 -40 M 45 -25 L 57 -26 M 40 -20 L 49 -13"/>
       </g>
       <path d="M -1 -4 L -8 -1 M 3 -4 L 9 -2 M 0 1 L 0 7" fill="none" stroke="#E62429" stroke-width="2"/>
-    </g>
-  </g>
     </g>
   </g>
 
