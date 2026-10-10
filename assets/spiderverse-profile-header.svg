@@ -25,6 +25,15 @@
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="5"/>
     </filter>
+    <linearGradient id="title-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#FFFFFF" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sense-pulse">
+      <stop offset="0" stop-color="#FBD000" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#FBD000" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <rect width="1200" height="320" fill="url(#night)"/>
   <rect width="1200" height="320" fill="url(#halftone)"/>
@@ -38,6 +47,7 @@
   </g>
   <!-- Comic web geometry in the upper-right corner. -->
   <g fill="none" stroke="#D6ECFF" stroke-width="1.05" opacity=".46">
+      <animate attributeName="opacity" values=".25;.62;.25" dur="7.2s" repeatCount="indefinite"/>
     <path d="M 1185 -20 L 890 142 M 1185 -20 L 970 150 M 1185 -20 L 1055 157 M 1185 -20 L 1140 163 M 1185 -20 L 1200 170"/>
     <path d="M 1010 0 Q 1030 34 1055 60 T 1140 118 T 1200 143"/>
     <path d="M 950 0 Q 980 49 1010 82 T 1110 144 T 1200 166"/>
@@ -58,6 +68,7 @@
   <path d="M 1035 320 L 1035 233 L 1084 233 L 1084 192 L 1131 192 L 1131 231 L 1168 231 L 1168 205 L 1200 205 L 1200 320 Z" fill="#0D1935" stroke="#29467F" stroke-width="1.2"/>
   <!-- Windows. -->
   <g fill="#55BFFF" opacity=".64">
+      <animate attributeName="opacity" values=".48;.85;.48" dur="3.6s" repeatCount="indefinite"/>
     <rect x="170" y="248" width="9" height="14"/><rect x="190" y="248" width="9" height="14"/><rect x="211" y="248" width="9" height="14"/>
     <rect x="170" y="274" width="9" height="14"/><rect x="190" y="274" width="9" height="14"/><rect x="211" y="274" width="9" height="14"/>
     <rect x="295" y="164" width="8" height="14"/><rect x="315" y="164" width="8" height="14"/><rect x="295" y="188" width="8" height="14"/><rect x="315" y="188" width="8" height="14"/>
@@ -73,7 +84,7 @@
   </path>
   <!-- Original red-and-blue masked web-slinger silhouette. -->
   <g id="swinging-web-slinger" transform="translate(665 116) rotate(-22)">
-    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0; -38 10; -76 7; -34 -4; 0 0" dur="6.2s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0; -58 26; -138 48; -184 12; -104 -18; -28 4; 0 0" dur="7.2s" repeatCount="indefinite" />
     <animateTransform attributeName="transform" type="rotate" additive="sum" values="-6;8;-3;-6" dur="2.8s" repeatCount="indefinite"/>
     <g stroke="#081A45" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M -10 0 Q -25 16 -39 32 L -50 28 Q -39 10 -23 -5" fill="url(#blue)"/>
@@ -135,9 +146,22 @@
     <path d="M 42 44 H 552 V 50 H 42 Z" fill="#E62429"/>
     <text x="66" y="83" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="4.5" fill="#62C4FF">THE FRIENDLY NEIGHBORHOOD</text>
     <text x="62" y="126" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="43" font-weight="900" letter-spacing="1.5" fill="#FFFFFF" stroke="#E62429" stroke-width="1">WEB-SLINGER</text>
+    <clipPath id="title-glint-clip"><rect x="60" y="86" width="490" height="46" rx="2"/></clipPath>
+    <g clip-path="url(#title-glint-clip)" opacity=".28">
+      <rect x="60" y="86" width="75" height="46" fill="url(#title-sweep)">
+        <animate attributeName="x" values="-120;560;-120" dur="5.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
     <text x="67" y="151" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3.3" fill="#FBD000">SUVENDU / DEVELOPER MODE</text>
     <path d="M 66 161 H 307" stroke="#269DFF" stroke-width="2"/>
     <path d="M 307 161 L 319 161" stroke="#E62429" stroke-width="2"/>
   </g>
-  <text x="1112" y="302" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1.4" fill="#C4D8FF" text-anchor="end">GREAT POWER / GREAT DEBUGGING</text>
+  <g id="comic-status">
+    <text x="1112" y="302" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1.4" fill="#C4D8FF" text-anchor="end">GREAT POWER / GREAT DEBUGGING</text>
+    <path d="M 585 282 L 610 282" stroke="#E62429" stroke-width="3">
+      <animate attributeName="stroke-dasharray" values="0 30;25 5;0 30" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <text x="585" y="272" font-family="monospace" font-size="8" font-weight="700" fill="#E62429" letter-spacing="1.4">SPIDER-SENSE</text>
+    <text x="585" y="294" font-family="monospace" font-size="6.5" fill="#C4D8FF" letter-spacing=".6">SYSTEM ONLINE / CITY SECURE</text>
+  </g>
 </svg>
