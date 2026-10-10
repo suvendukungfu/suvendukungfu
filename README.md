@@ -165,7 +165,7 @@ mission: Turn curious experiments into useful software
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/RED%20BIRD-AIM- E52521?style=for-the-badge" alt="Red bird: aim" />
+  <img src="https://img.shields.io/badge/RED%20BIRD-AIM-E52521?style=for-the-badge" alt="Red bird: aim" />
   <img src="https://img.shields.io/badge/GOLD%20BIRD-LEARN-FBD000?style=for-the-badge" alt="Gold bird: learn" />
   <img src="https://img.shields.io/badge/GREEN%20HIT-SHIP-009B48?style=for-the-badge" alt="Green hit: ship" />
 </p>
