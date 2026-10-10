@@ -72,7 +72,9 @@
     <animate attributeName="d" dur="4.8s" repeatCount="indefinite" values="M 785 0 Q 752 90 668 110;M 785 0 Q 715 62 620 95;M 785 0 Q 810 110 736 155;M 785 0 Q 752 90 668 110"/>
   </path>
   <!-- Original red-and-blue masked web-slinger silhouette. -->
-  <g transform="translate(665 116) rotate(-22)">
+  <g id="swing-motion">
+    <animateMotion dur="6.2s" repeatCount="indefinite" rotate="auto" path="M 0,0 C 90,-70 190,-55 220,10 S 150,145 35,90 S -35,30 0,0"/>
+    <g transform="translate(665 116) rotate(-22)">
     <animateTransform attributeName="transform" type="rotate" additive="sum" values="-6;8;-3;-6" dur="2.8s" repeatCount="indefinite"/>
     <g stroke="#081A45" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M -10 0 Q -25 16 -39 32 L -50 28 Q -39 10 -23 -5" fill="url(#blue)"/>
@@ -97,6 +99,39 @@
       <path d="M -1 -4 L -8 -1 M 3 -4 L 9 -2 M 0 1 L 0 7" fill="none" stroke="#E62429" stroke-width="2"/>
     </g>
   </g>
+    </g>
+  </g>
+
+  <!-- Spider-sense pulse, swinging streaks, and a comic action burst. -->
+  <g id="spider-sense-radar" fill="none" stroke="#FBD000" stroke-width="1.6" opacity=".9">
+    <circle cx="825" cy="91" r="15" opacity=".65">
+      <animate attributeName="r" values="7;24;7" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".05;.9;.05" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="825" cy="91" r="21" stroke="#39B7FF" stroke-width="1">
+      <animate attributeName="r" values="12;29;12" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".05;.55;.05" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g id="motion-streaks" fill="none" stroke-linecap="round">
+    <path d="M 737 164 L 784 148" stroke="#E62429" stroke-width="2.6">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M 737 164 L 770 154;M 737 164 L 802 144;M 737 164 L 770 154" dur="1.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 753 177 L 793 165" stroke="#39B7FF" stroke-width="1.8">
+      <animate attributeName="opacity" values=".1;.85;.1" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 700 186 L 730 180" stroke="#FFFFFF" stroke-width="1.3">
+      <animate attributeName="opacity" values=".1;.8;.1" dur=".9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g id="comic-thwip-callout" transform="rotate(-8 812 211)">
+    <path d="M 778 197 L 790 203 L 786 190 L 799 199 L 809 187 L 812 203 L 827 197 L 819 211 L 831 217 L 814 219 L 810 233 L 802 220 L 789 229 L 793 215 L 778 211 Z" fill="#E62429" stroke="#FFFFFF" stroke-width="1.4">
+      <animate attributeName="opacity" values=".72;1;.72" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <text x="804" y="213" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="11" font-weight="900" fill="#FFFFFF" stroke="#07183C" stroke-width=".35">THWIP!</text>
+  </g>
+
   <!-- Main title block. -->
   <g>
     <rect x="42" y="44" width="510" height="128" rx="5" fill="#061126" opacity=".78" stroke="#E62429" stroke-width="1.5"/>
