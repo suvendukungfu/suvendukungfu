@@ -138,7 +138,7 @@ I enjoy taking ideas from a rough prototype to a tested, usable product. My curr
   2. GitHub Actions publishes them to the <code>output</code> branch.
   3. A scheduled run refreshes the animation daily.
 
-  <strong>First-time setup:</strong> Open the repository's <strong>Actions</strong> tab, select <strong>Generate Contribution Snake</strong>, and choose <strong>Run workflow</strong>. If publishing fails, check <strong>Settings → Actions → General → Workflow permissions</strong> and allow read/write access to repository contents. The first successful run is required before the image URLs above resolve.
+  <strong>First-time setup:</strong> Open the repository's <strong>Actions</strong> tab, select <strong>Generate Contribution Snake</strong>, and choose <strong>Run workflow</strong>. If publishing fails, check <strong>Settings → Actions → General → Workflow permissions</strong> and allow read/write access to repository contents. The output branch already contains the SVGs; run the workflow once to refresh them with the new purple/teal palette.
 </details>
 
 ## Let's Connect
