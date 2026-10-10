@@ -182,6 +182,60 @@ const overlay = String.raw`
       <path d="M 582 247 L 617 254"/>
     </g>
 
+    <!-- Extra motion pass: web filament, spider-sense radar, speed ribbons, scan light, and comic callout. -->
+    <g id="spiderverse-deluxe-effects">
+      <path d="M 766 163 Q 642 170 545 208 T 382 218" fill="none" stroke="__WEB_COLOR__" stroke-width="1.35" stroke-linecap="round" stroke-dasharray="4 5" opacity=".82">
+        <animate attributeName="d" dur="5.1s" repeatCount="indefinite"
+          values="M 766 163 Q 642 170 545 208 T 382 218;M 766 163 Q 650 205 535 188 T 382 218;M 766 163 Q 625 158 510 232 T 382 218;M 766 163 Q 642 170 545 208 T 382 218"/>
+        <animate attributeName="stroke-dashoffset" values="0;-64" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+
+      <g id="spider-sense-radar" fill="none" stroke="#FBD000" stroke-width="1.5">
+        <circle cx="435" cy="218" r="7" opacity=".9">
+          <animate attributeName="r" values="4;24;4" dur="2.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".05;.92;.05" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="435" cy="218" r="13" stroke="#45A7FF" stroke-width="1.1">
+          <animate attributeName="r" values="9;31;9" dur="3.1s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".03;.66;.03" dur="3.1s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <g id="web-impact-comic" transform="rotate(-8 535 198)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="1.2s" repeatCount="indefinite"/>
+        <path d="M 501 183 L 512 188 L 511 177 L 523 186 L 535 176 L 537 189 L 551 185 L 544 199 L 556 206 L 540 207 L 535 220 L 526 210 L 513 217 L 516 203 L 501 199 Z" fill="#E62429" stroke="#FFFFFF" stroke-width="1.2">
+          <animate attributeName="opacity" values=".68;1;.68" dur="1.35s" repeatCount="indefinite"/>
+        </path>
+        <text x="528" y="201" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="8.5" font-weight="900" fill="#FFFFFF" stroke="#10234B" stroke-width=".4">THWIP!</text>
+      </g>
+
+      <g id="city-speed-ribbons" fill="none" stroke-linecap="round">
+        <path d="M 179 206 L 242 194" stroke="#E62429" stroke-width="2.1">
+          <animate attributeName="opacity" values=".12;.9;.12" dur="1.15s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="242;275;242" dur="1.15s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 195 220 L 252 211" stroke="#45A7FF" stroke-width="1.5">
+          <animate attributeName="opacity" values=".08;.76;.08" dur="1.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 589 252 L 638 242" stroke="#FBD000" stroke-width="1.2">
+          <animate attributeName="opacity" values=".12;.75;.12" dur="1.4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+
+      <g id="city-scanline">
+        <rect x="-16" y="160" width="880" height="1.2" fill="#FFFFFF" opacity=".35">
+          <animate attributeName="y" values="160;329;160" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".05;.45;.05" dur="8s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g id="swing-sparks" fill="#FBD000">
+        <circle cx="611" cy="188" r="1.6"><animate attributeName="opacity" values=".15;1;.15" dur=".8s" repeatCount="indefinite"/></circle>
+        <circle cx="623" cy="198" r="1"><animate attributeName="opacity" values="1;.1;1" dur="1.2s" repeatCount="indefinite"/></circle>
+        <circle cx="583" cy="183" r="1.2"><animate attributeName="opacity" values=".1;.95;.1" dur="1.5s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+
     <!-- Ground shadows and HUD. -->
     <path d="M 130 316 Q 430 307 710 316" fill="none" stroke="__GROUND_LINE__" stroke-width="1.1" opacity=".6"/>
     <g font-family="monospace" font-weight="700">
