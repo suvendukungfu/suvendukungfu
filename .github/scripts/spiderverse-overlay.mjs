@@ -55,6 +55,7 @@ const overlay = String.raw`
       <path d="M 62 330 L 62 240 L 101 240 L 101 207 L 130 207 L 130 330 Z" fill="url(#spider-building)" stroke="__BUILDING_STROKE__" stroke-width="1"/>
       <path d="M 101 207 L 115 194 L 130 207 Z" fill="#E62429" opacity=".9"/>
       <g fill="url(#spider-window)" opacity=".86">
+        <animate attributeName="opacity" values=".55;.96;.55" dur="3.8s" repeatCount="indefinite"/>
         <rect x="-5" y="239" width="8" height="13"/><rect x="12" y="239" width="8" height="13"/><rect x="29" y="239" width="8" height="13"/>
         <rect x="-5" y="261" width="8" height="13"/><rect x="12" y="261" width="8" height="13"/><rect x="29" y="261" width="8" height="13"/>
         <rect x="72" y="252" width="8" height="13"/><rect x="91" y="252" width="8" height="13"/><rect x="110" y="252" width="8" height="13"/>
@@ -68,6 +69,7 @@ const overlay = String.raw`
       <path d="M 771 330 L 771 227 L 811 227 L 811 205 L 845 205 L 845 330 Z" fill="url(#spider-building)" stroke="__BUILDING_STROKE__" stroke-width="1"/>
       <path d="M 736 190 L 753 176 L 771 190 Z" fill="#E62429"/>
       <g fill="url(#spider-window)" opacity=".86">
+        <animate attributeName="opacity" values=".55;.96;.55" dur="3.8s" repeatCount="indefinite"/>
         <rect x="713" y="226" width="8" height="13"/><rect x="731" y="226" width="8" height="13"/><rect x="750" y="226" width="8" height="13"/>
         <rect x="713" y="248" width="8" height="13"/><rect x="731" y="248" width="8" height="13"/><rect x="750" y="248" width="8" height="13"/>
         <rect x="785" y="242" width="8" height="13"/><rect x="804" y="242" width="8" height="13"/><rect x="824" y="242" width="8" height="13"/>
@@ -87,10 +89,20 @@ const overlay = String.raw`
     </g>
 
     <!-- Animated web strand; it pays off in the swinging figure below. -->
-    <path d="M 753 163 Q 666 160 600 203" fill="none" stroke="__WEB_COLOR__" stroke-width="1.4" stroke-linecap="round">
+    <path d="M 753 163 Q 666 160 600 203" fill="none" stroke="__WEB_COLOR__" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4">
       <animate attributeName="d" dur="5.4s" repeatCount="indefinite"
         values="M 753 163 Q 666 160 600 203;M 753 163 Q 650 174 520 226;M 753 163 Q 673 194 637 244;M 753 163 Q 666 160 600 203"/>
+      <animate attributeName="stroke-dashoffset" values="0;-45" dur="2s" repeatCount="indefinite"/>
     </path>
+    <g id="web-grid-flash" fill="none" stroke="__WEB_COLOR__" stroke-width=".8" opacity=".55">
+      <path d="M 736 165 L 770 190 L 742 220 L 695 230 L 657 212 L 632 183" stroke-dasharray="3 5">
+        <animate attributeName="stroke-dashoffset" values="0;32" dur="3.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".12;.7;.12" dur="3.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 702 174 Q 715 198 742 220 M 736 165 Q 700 188 657 212 M 770 190 Q 716 221 695 230" stroke-dasharray="2 4">
+        <animate attributeName="stroke-dashoffset" values="0;-24" dur="2.7s" repeatCount="indefinite"/>
+      </path>
+    </g>
 
     <!-- Original red-and-blue masked web-slinger silhouette. -->
     <g id="swinging-web-slinger">
@@ -133,6 +145,35 @@ const overlay = String.raw`
       </g>
     </g>
 
+    <!-- Spider-sense waves and an original comic-book impact burst. -->
+    <g id="spider-sense-waves" fill="none" stroke="#FBD000" stroke-width="1.6">
+      <circle cx="448" cy="215" r="8" opacity=".8">
+        <animate attributeName="r" values="4;24;4" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".05;.9;.05" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="448" cy="215" r="15" stroke="#45A7FF" stroke-width="1.1">
+        <animate attributeName="r" values="10;31;10" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".04;.62;.04" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g id="web-impact-caption" transform="rotate(-9 535 198)">
+      <path d="M 501 183 L 512 188 L 511 177 L 523 186 L 535 176 L 537 189 L 551 185 L 544 199 L 556 206 L 540 207 L 535 220 L 526 210 L 513 217 L 516 203 L 501 199 Z" fill="#E62429" stroke="#FFFFFF" stroke-width="1.2">
+        <animate attributeName="opacity" values=".74;1;.74" dur="1.35s" repeatCount="indefinite"/>
+      </path>
+      <text x="528" y="201" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="8.5" font-weight="900" fill="#FFFFFF" stroke="#10234B" stroke-width=".4">THWIP!</text>
+    </g>
+
+    <!-- Comic-style motion trails shift as the hero crosses the skyline. -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M 490 193 L 548 179" stroke="#E62429" stroke-width="2">
+        <animate attributeName="x1" values="490;470;490" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".15;.9;.15" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 505 207 L 554 197" stroke="#45A7FF" stroke-width="1.4">
+        <animate attributeName="opacity" values=".08;.8;.08" dur="1.55s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
     <!-- Perspective speed lines. -->
     <g fill="none" stroke="#E62429" stroke-width="1.2" opacity=".7">
       <path d="M 143 180 L 177 187"/>
@@ -149,6 +190,9 @@ const overlay = String.raw`
       <rect x="641" y="168" width="185" height="15" rx="2.5" fill="#101827" fill-opacity=".88" stroke="#E62429" stroke-width=".8"/>
       <text x="650" y="177.8" font-size="6.1" fill="#FFFFFF" letter-spacing=".45">FRIENDLY NEIGHBORHOOD / DEV</text>
       <text x="710" y="326" font-size="5.8" fill="__HUD_TEXT__" letter-spacing=".7">WITH GREAT CODE...</text>
+      <path d="M 30 195 H 190" stroke="#E62429" stroke-width="1.3" stroke-dasharray="0 160">
+        <animate attributeName="stroke-dasharray" values="0 160;160 0;0 160" dur="4.5s" repeatCount="indefinite"/>
+      </path>
     </g>
   </g>
 `;
