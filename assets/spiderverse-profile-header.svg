@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Spider-Verse: Suvendu</title>
+  <desc id="desc">An original comic-book city with a red-and-blue web-slinger swinging over a night skyline. Developer profile banner.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B19"/>
+      <stop offset=".48" stop-color="#111C43"/>
+      <stop offset="1" stop-color="#082D64"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF5B66"/>
+      <stop offset="1" stop-color="#B20F2E"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39B7FF"/>
+      <stop offset="1" stop-color="#0751C9"/>
+    </linearGradient>
+    <linearGradient id="skyline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#213A70"/>
+      <stop offset="1" stop-color="#080F25"/>
+    </linearGradient>
+    <pattern id="halftone" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#86C9FF" opacity=".2"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#night)"/>
+  <rect width="1200" height="320" fill="url(#halftone)"/>
+  <circle cx="1020" cy="72" r="45" fill="#E62429" opacity=".18" filter="url(#glow)"/>
+  <circle cx="1020" cy="72" r="34" fill="#EAF5FF" opacity=".92"/>
+  <circle cx="1034" cy="62" r="34" fill="#121D44"/>
+  <g fill="#FFFFFF" opacity=".8">
+    <circle cx="780" cy="41" r="1.5"/><circle cx="845" cy="88" r="1.2"/><circle cx="1100" cy="112" r="1.6"/>
+    <circle cx="720" cy="92" r="1.1"/><circle cx="945" cy="35" r="1.1"/><circle cx="1140" cy="54" r="1.4"/>
+    <circle cx="679" cy="58" r="1"/><circle cx="890" cy="126" r="1.1"/>
+  </g>
+  <!-- Comic web geometry in the upper-right corner. -->
+  <g fill="none" stroke="#D6ECFF" stroke-width="1.05" opacity=".46">
+    <path d="M 1185 -20 L 890 142 M 1185 -20 L 970 150 M 1185 -20 L 1055 157 M 1185 -20 L 1140 163 M 1185 -20 L 1200 170"/>
+    <path d="M 1010 0 Q 1030 34 1055 60 T 1140 118 T 1200 143"/>
+    <path d="M 950 0 Q 980 49 1010 82 T 1110 144 T 1200 166"/>
+    <path d="M 890 0 Q 930 60 960 98 T 1080 160 T 1200 188"/>
+    <path d="M 850 48 Q 960 80 1025 85 Q 1105 91 1182 66"/>
+    <path d="M 830 85 Q 960 116 1030 121 Q 1120 127 1197 101"/>
+    <path d="M 846 127 Q 966 147 1043 154 Q 1127 161 1200 144"/>
+  </g>
+  <path d="M 0 320 L 0 260 L 56 260 L 56 211 L 100 211 L 100 241 L 132 241 L 132 184 L 185 184 L 185 320 Z" fill="url(#skyline)"/>
+  <path d="M 155 320 L 155 232 L 201 232 L 201 164 L 252 164 L 252 199 L 278 199 L 278 135 L 320 135 L 320 320 Z" fill="#101D40" stroke="#2C4C89" stroke-width="1.5"/>
+  <path d="M 278 135 L 299 114 L 320 135" fill="#E62429"/>
+  <path d="M 342 320 L 342 222 L 375 222 L 375 180 L 414 180 L 414 211 L 443 211 L 443 154 L 485 154 L 485 320 Z" fill="#101C3A" stroke="#27467D" stroke-width="1.2"/>
+  <path d="M 485 154 L 485 136 L 490 136 L 490 154" stroke="#E62429" stroke-width="2" fill="none"/>
+  <path d="M 690 320 L 690 224 L 723 224 L 723 183 L 764 183 L 764 210 L 790 210 L 790 163 L 833 163 L 833 320 Z" fill="#101B3A" stroke="#29467F" stroke-width="1.2"/>
+  <path d="M 833 163 L 854 144 L 875 163 L 875 320 L 833 320 Z" fill="#132347" stroke="#29467F" stroke-width="1.2"/>
+  <path d="M 874 320 L 874 212 L 912 212 L 912 171 L 953 171 L 953 198 L 982 198 L 982 148 L 1024 148 L 1024 320 Z" fill="#101A38" stroke="#29467F" stroke-width="1.2"/>
+  <path d="M 1024 148 L 1044 126 L 1064 148" fill="#E62429"/>
+  <path d="M 1035 320 L 1035 233 L 1084 233 L 1084 192 L 1131 192 L 1131 231 L 1168 231 L 1168 205 L 1200 205 L 1200 320 Z" fill="#0D1935" stroke="#29467F" stroke-width="1.2"/>
+  <!-- Windows. -->
+  <g fill="#55BFFF" opacity=".64">
+    <rect x="170" y="248" width="9" height="14"/><rect x="190" y="248" width="9" height="14"/><rect x="211" y="248" width="9" height="14"/>
+    <rect x="170" y="274" width="9" height="14"/><rect x="190" y="274" width="9" height="14"/><rect x="211" y="274" width="9" height="14"/>
+    <rect x="295" y="164" width="8" height="14"/><rect x="315" y="164" width="8" height="14"/><rect x="295" y="188" width="8" height="14"/><rect x="315" y="188" width="8" height="14"/>
+    <rect x="368" y="244" width="8" height="13"/><rect x="389" y="244" width="8" height="13"/><rect x="410" y="244" width="8" height="13"/>
+    <rect x="714" y="244" width="8" height="13"/><rect x="735" y="244" width="8" height="13"/><rect x="756" y="244" width="8" height="13"/>
+    <rect x="803" y="184" width="8" height="13"/><rect x="823" y="184" width="8" height="13"/><rect x="803" y="207" width="8" height="13"/><rect x="823" y="207" width="8" height="13"/>
+    <rect x="936" y="218" width="8" height="13"/><rect x="956" y="218" width="8" height="13"/><rect x="976" y="218" width="8" height="13"/>
+    <rect x="1051" y="256" width="8" height="13"/><rect x="1072" y="256" width="8" height="13"/><rect x="1093" y="256" width="8" height="13"/>
+  </g>
+  <!-- Swinging strand. -->
+  <path d="M 785 0 Q 752 90 668 110" fill="none" stroke="#F5FAFF" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="d" dur="4.8s" repeatCount="indefinite" values="M 785 0 Q 752 90 668 110;M 785 0 Q 715 62 620 95;M 785 0 Q 810 110 736 155;M 785 0 Q 752 90 668 110"/>
+  </path>
+  <!-- Original red-and-blue masked web-slinger silhouette. -->
+  <g transform="translate(665 116) rotate(-22)">
+    <animateTransform attributeName="transform" type="rotate" additive="sum" values="-6;8;-3;-6" dur="2.8s" repeatCount="indefinite"/>
+    <g stroke="#081A45" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M -10 0 Q -25 16 -39 32 L -50 28 Q -39 10 -23 -5" fill="url(#blue)"/>
+      <path d="M -4 6 Q 6 24 24 22 L 34 15 Q 15 9 10 -5" fill="url(#blue)"/>
+      <path d="M -12 -17 Q 2 -24 15 -10 L 13 10 Q 2 21 -13 9 L -19 -5 Z" fill="url(#blue)"/>
+      <path d="M -11 -15 Q 1 -22 11 -10 L 6 3 L -9 3 L -16 -5 Z" fill="url(#red)"/>
+      <g fill="none" stroke="#FFBBC4" stroke-width="1" opacity=".9">
+        <path d="M -11 -14 L 9 1 M -4 -19 L 9 -3 M -16 -5 L 7 -7 M -12 1 L 6 -15"/>
+      </g>
+      <path d="M 8 -14 Q 21 -27 37 -35 L 43 -29 Q 30 -13 15 -4" fill="url(#red)"/>
+      <path d="M -14 -12 Q -28 -16 -40 -5 L -45 1 Q -28 1 -12 -2" fill="url(#blue)"/>
+      <path d="M -8 -28 Q -5 -48 11 -48 Q 28 -47 26 -31 L 17 -16 Q 6 -10 -3 -18 Z" fill="url(#red)"/>
+      <g fill="none" stroke="#FFBBC4" stroke-width=".8" opacity=".95">
+        <path d="M 0 -44 L 4 -17 M 9 -47 L 9 -15 M 18 -43 L 14 -20 M -5 -37 L 24 -36 M -5 -30 L 22 -27 M 0 -22 L 17 -20"/>
+        <path d="M 0 -44 L 19 -20 M 19 -43 L -1 -23"/>
+      </g>
+      <path d="M 1 -37 Q 7 -42 11 -35 L 8 -27 L 2 -27 Z" fill="#FFFFFF" stroke="#07183C" stroke-width="1.2"/>
+      <path d="M 15 -37 Q 22 -40 23 -33 L 18 -26 L 13 -30 Z" fill="#FFFFFF" stroke="#07183C" stroke-width="1.2"/>
+      <g fill="none" stroke="#FFFFFF" stroke-width="1.2">
+        <path d="M 42 -30 L 52 -40 M 45 -25 L 57 -26 M 40 -20 L 49 -13"/>
+      </g>
+      <path d="M -1 -4 L -8 -1 M 3 -4 L 9 -2 M 0 1 L 0 7" fill="none" stroke="#E62429" stroke-width="2"/>
+    </g>
+  </g>
+  <!-- Main title block. -->
+  <g>
+    <rect x="42" y="44" width="510" height="128" rx="5" fill="#061126" opacity=".78" stroke="#E62429" stroke-width="1.5"/>
+    <path d="M 42 44 H 552 V 50 H 42 Z" fill="#E62429"/>
+    <text x="66" y="83" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="4.5" fill="#62C4FF">THE FRIENDLY NEIGHBORHOOD</text>
+    <text x="62" y="126" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="43" font-weight="900" letter-spacing="1.5" fill="#FFFFFF" stroke="#E62429" stroke-width="1">WEB-SLINGER</text>
+    <text x="67" y="151" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3.3" fill="#FBD000">SUVENDU / DEVELOPER MODE</text>
+    <path d="M 66 161 H 307" stroke="#269DFF" stroke-width="2"/>
+    <path d="M 307 161 L 319 161" stroke="#E62429" stroke-width="2"/>
+  </g>
+  <text x="1112" y="302" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1.4" fill="#C4D8FF" text-anchor="end">GREAT POWER / GREAT DEBUGGING</text>
+</svg>
