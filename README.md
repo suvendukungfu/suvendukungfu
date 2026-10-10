@@ -1,153 +1,180 @@
- <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4F46E5,100:2DD4BF&height=220&section=header&text=Suvendu%20Kumar%20Sahoo&fontSize=50&animation=fadeIn&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20%7C%20Full-Stack%20Engineering%20%7C%20Automation&descAlignY=56&descSize=17&descFontColor=c4b5fd" alt="Suvendu Kumar Sahoo — AI systems, full-stack engineering, and automation" />
+<!--
+  SUPER SUVENDU — WORLD 1-1
+  Profile README | retro platformer theme
+-->
 
 <p align="center">
-  <a href="https://github.com/suvendukungfu">
-    <img src="https://komarev.com/ghpvc/?username=suvendukungfu&label=PROFILE%20VIEWS&color=7C3AED&style=flat-square" alt="Profile views" />
-  </a>
-  <img src="https://img.shields.io/github/followers/suvendukungfu?label=FOLLOWERS&style=flat-square&color=2DD4BF&labelColor=0D1117" alt="GitHub followers" />
-  <img src="https://img.shields.io/badge/FOCUS-AI%20%7C%20FULL%20STACK%20%7C%20OPEN%20SOURCE-4F46E5?style=flat-square" alt="Focus: AI, full stack, open source" />
-  <img src="https://img.shields.io/badge/BASED%20IN-INDIA-2DD4BF?style=flat-square" alt="Based in India" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E52521,35:FBD000,70:009B48,100:049CD8&height=225&section=header&text=SUPER%20SUVENDU&fontSize=52&animation=fadeIn&fontColor=ffffff&fontAlignY=36&desc=%F0%9F%8D%84%20WORLD%201-1%20%E2%80%A2%20AI%20SYSTEMS%20%E2%80%A2%20FULL-STACK%20%E2%80%A2%20CREATIVE%20AUTOMATION&descAlignY=57&descSize=16&descFontColor=FBD000" alt="Super Suvendu — World 1-1: AI systems, full-stack engineering, and creative automation" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=750&color=7C3AED&center=true&vCenter=true&width=820&lines=Building+AI-powered+products;Engineering+reliable+full-stack+experiences;Exploring+computer+vision+and+agentic+systems;Turning+experiments+into+useful+software" alt="Building AI-powered products, reliable web experiences, computer vision, and agentic systems" />
+  <img src="https://komarev.com/ghpvc/?username=suvendukungfu&label=COINS%20COLLECTED&color=FBD000&style=flat-square" alt="Profile views, styled as coins" />
+  <img src="https://img.shields.io/github/followers/suvendukungfu?label=1-UP%20LIVES&style=flat-square&color=009B48&labelColor=0d1117" alt="GitHub followers, styled as 1-Up lives" />
+  <img src="https://img.shields.io/badge/CLASS-AI%20BUILDER-E52521?style=flat-square" alt="Class: AI Builder" />
+  <img src="https://img.shields.io/badge/WORLD-INDIA%20%7C%201--1-049CD8?style=flat-square" alt="World: India, 1-1" />
 </p>
 
-<p align="center"><em>Curious by default. Practical by design. Always leveling up.</em></p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=12&duration=2800&pause=700&color=FBD000&center=true&vCenter=true&width=850&height=70&lines=%F0%9F%8D%84+Stomping+bugs+across+AI+pipelines;%E2%AD%90+Powered+up+by+local+LLMs+and+agents;%F0%9F%AA%99+Collecting+ideas+and+shipping+tools;%F0%9F%8F%B0+One+more+build+before+the+flagpole" alt="Retro arcade status: building AI, shipping tools, and stomping bugs" />
+</p>
+
+<p align="center"><em>Insert curiosity. Collect ideas. Build something real. Repeat.</em></p>
 
 ---
 
-## 👾 Player Profile
+## 🎮 Player Select: Character Stats
 
-Hey, I'm **Suvendu** — a developer interested in building useful software at the intersection of **AI, full-stack engineering, and automation**.
+Hey, I'm **Suvendu Kumar Sahoo** — a developer exploring the mushroom kingdom where **AI, full-stack systems, and practical automation** meet.
 
-I enjoy taking ideas from a rough prototype to a tested, usable product. My current interests include agentic workflows, local and open models, computer vision, developer tools, and the engineering practices that make AI applications more reliable.
+I enjoy taking fuzzy ideas, testing them through small experiments, and turning them into useful software. My current interests include agentic workflows, local LLMs, computer vision, developer tools, and reliable product engineering.
 
-- **I like building:** AI-enabled products, thoughtful web experiences, and practical automation.
-- **I care about:** clear system boundaries, testable behavior, safety checks, and honest evaluation.
-- **I enjoy:** open-source projects, hackathons, collaborative building, and learning by shipping.
-- **Open to:** meaningful collaborations, open-source contributions, and ambitious project ideas.
+```yaml
+player: Suvendu Kumar Sahoo
+class: AI Builder + Full-Stack Developer
+world: India / World 1-1
+power_ups:
+  🍄 Super Mushroom: Full-stack prototyping
+  ⭐ Super Star: Agentic AI and local LLMs
+  🪶 Cape Feather: Computer vision and explainable ML
+  🪙 Coin Stash: Developer tools and automation
+co_op_mode: Open source, hackathons, and collaborative projects
+```
 
-## Areas I'm Exploring
+## 🗺️ Stage Select: Project Quests
 
-<p>
-  <img src="https://img.shields.io/badge/Agentic%20AI-7C3AED?style=for-the-badge" alt="Agentic AI" />
-  <img src="https://img.shields.io/badge/Local%20LLMs-4F46E5?style=for-the-badge" alt="Local LLMs" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-2DD4BF?style=for-the-badge" alt="Computer vision" />
-  <img src="https://img.shields.io/badge/Full--Stack%20Development-7C3AED?style=for-the-badge" alt="Full-stack development" />
-  <img src="https://img.shields.io/badge/Automation-F59E0B?style=for-the-badge" alt="Automation" />
-</p>
-
-## 🗺️ Quest Board
-
-> Pick a quest. Open the source. Inspect the build.
+> Every stage is a project to explore—not a trophy claim. Open the source to inspect the implementation and current status.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌲 <a href="https://github.com/suvendukungfu/traillens">TrailLens</a></h3>
-      <p><strong>Quest type:</strong> Local AI · Computer Vision</p>
-      <p>An outdoor-exploration app that uses Gemma 3 4B through Ollama to analyze field images and turn observations into guided real-world challenges. Built with attention to local inference, input validation, and safe fallbacks.</p>
-      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Ollama-Local%20Inference-2DD4BF?style=flat-square" alt="Ollama local inference" /></p>
+      <h3>🌲 Stage 1-1: <a href="https://github.com/suvendukungfu/traillens">TrailLens</a></h3>
+      <p><strong>Level:</strong> Overworld Expedition · Local AI & Vision</p>
+      <p>An outdoor-exploration app using Gemma 3 4B through Ollama to analyze field images and turn observations into guided real-world challenges. The project emphasizes local inference, input validation, and safe fallbacks.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Ollama-Local%20Inference-009B48?style=flat-square" alt="Ollama local inference" />
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚖️ <a href="https://github.com/suvendukungfu/Intelligent-Contract-Risk-Analysis-and-Agentic-Legal-Assistance-System">LexIQ</a></h3>
-      <p><strong>Quest type:</strong> Explainable ML · Agentic Workflows</p>
-      <p>A contract-review prototype combining interpretable clause classification, hybrid retrieval, and a LangGraph-orchestrated LLM workflow to help surface potentially risky clauses and organize review findings.</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Explainable%20ML-4F46E5?style=flat-square" alt="Explainable machine learning" /> <img src="https://img.shields.io/badge/LangGraph-7C3AED?style=flat-square" alt="LangGraph" /></p>
+      <h3>⚖️ Stage 1-2: <a href="https://github.com/suvendukungfu/Intelligent-Contract-Risk-Analysis-and-Agentic-Legal-Assistance-System">LexIQ</a></h3>
+      <p><strong>Level:</strong> Underground Cavern · Explainable ML & Agents</p>
+      <p>A contract-review project combining interpretable clause classification, hybrid document retrieval, and a LangGraph-orchestrated LLM workflow to help identify potentially risky clauses and organize findings.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Explainable%20ML-E52521?style=flat-square" alt="Explainable machine learning" />
+        <img src="https://img.shields.io/badge/LangGraph-7C3AED?style=flat-square" alt="LangGraph" />
+      </p>
       <p><a href="https://huggingface.co/spaces/suvendukungfu/lexiq-legal-ai">Launch demo ↗</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧭 <a href="https://github.com/suvendukungfu/Exitlens-">ExitLens</a></h3>
-      <p><strong>Quest type:</strong> Workforce Analytics · Automation</p>
-      <p>An employee-exit intelligence platform focused on turning fragmented HR data into structured workforce insights, with plant-level workflows, auditability, and analytics as core design concerns.</p>
-      <p><img src="https://img.shields.io/badge/HR%20Analytics-7C3AED?style=flat-square" alt="HR analytics" /> <img src="https://img.shields.io/badge/Full--Stack-4F46E5?style=flat-square" alt="Full stack" /></p>
+      <h3>🧭 Stage 1-3: <a href="https://github.com/suvendukungfu/Exitlens-">ExitLens</a></h3>
+      <p><strong>Level:</strong> Sky Bridge · Workforce Intelligence</p>
+      <p>An employee-exit intelligence platform focused on turning fragmented HR data into structured workforce insights, with auditability, plant-level workflows, and analytics as core design concerns.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HR%20Analytics-FBD000?style=flat-square" alt="HR analytics" />
+        <img src="https://img.shields.io/badge/Full--Stack-049CD8?style=flat-square" alt="Full-stack development" />
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛠️ <a href="https://github.com/suvendukungfu/nexus-cli">Nexus DevTools CLI</a></h3>
-      <p><strong>Quest type:</strong> Developer Experience · APIs</p>
-      <p>A command-line developer toolkit exploring a consistent command architecture, typed validation, shared API clients, and consolidated utilities for development workflows.</p>
-      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/CLI%20Tooling-2DD4BF?style=flat-square" alt="CLI tooling" /></p>
+      <h3>🛠️ Stage 1-4: <a href="https://github.com/suvendukungfu/nexus-cli">Nexus DevTools CLI</a></h3>
+      <p><strong>Level:</strong> Castle Fortress · Developer Experience</p>
+      <p>A command-line toolkit exploring a consistent command architecture, typed validation, shared API clients, and consolidated utilities for everyday development workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/CLI%20Tooling-009B48?style=flat-square" alt="CLI tooling" />
+      </p>
     </td>
   </tr>
 </table>
 
-<p align="center"><a href="https://github.com/suvendukungfu?tab=repositories"><strong>🧰 Browse every quest →</strong></a></p>
+<p align="center"><a href="https://github.com/suvendukungfu?tab=repositories"><strong>🧰 Enter the Warp Zone — explore all repositories →</strong></a></p>
 
-## Tech Stack
+---
 
-<h3>Languages & Web</h3>
+## 🍄 Power-Up Inventory
+
+### 🍄 Super Mushrooms — Languages & Web
 <p>
   <img src="https://skillicons.dev/icons?i=js,ts,python,html,css,react,nextjs,nodejs,express,tailwind&theme=dark" alt="JavaScript, TypeScript, Python, HTML, CSS, React, Next.js, Node.js, Express, and Tailwind CSS" />
 </p>
 
-<h3>AI, Data & Storage</h3>
+### ⭐ Super Stars — AI, Machine Learning & Data
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,opencv,mongodb,postgres&theme=dark" alt="PyTorch, OpenCV, MongoDB, and PostgreSQL" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,mongodb,postgres&theme=dark" alt="PyTorch, TensorFlow, OpenCV, MongoDB, and PostgreSQL" />
 </p>
 
-<h3>Tools & Platforms</h3>
+### 🧰 Hammer Bro Loadout — Tools & Platforms
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,linux,docker,figma,vercel,netlify,vscode&theme=dark" alt="Git, GitHub, Linux, Docker, Figma, Vercel, Netlify, and VS Code" />
 </p>
 
-## GitHub at a Glance
+---
 
-<p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=suvendukungfu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=2DD4BF&text_color=c9d1d9" alt="GitHub statistics" />
-  <img height="175" src="https://streak-stats.demolab.com?user=suvendukungfu&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=2DD4BF&currStreakLabel=2DD4BF" alt="GitHub contribution streak" />
-</p>
+## 🐲 Castle Boss Battles
 
-<p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvendukungfu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=c9d1d9&langs_count=8" alt="Most-used languages in public repositories" />
-</p>
+| Bowser's castle challenge | Power-up / engineering approach |
+| --- | --- |
+| **Flaky AI outputs** | **Fire Flower:** schema validation, deterministic fallbacks, and evaluation tests |
+| **Local-model latency** | **Star Power:** cold-versus-warm benchmarking and hardware-aware profiling |
+| **Messy operational data** | **P-Switch:** repeatable data pipelines, reconciliation checks, and clear logs |
+| **Prototype-to-product gap** | **Warp Pipe:** clear service boundaries, defensive coding, and build-time gates |
 
-## 🧪 Boss Battles
+<p align="center"><em>The goal isn't to claim every boss is defeated. It's to keep measuring, learning, and improving the build.</em></p>
 
-<p>Engineering challenges I'm interested in investigating—not claims that every project has fully solved them.</p>
+---
 
-<table>
-  <tr><td><strong>🧠 Flaky AI outputs</strong></td><td>Schema checks, input validation, deterministic fallbacks, and tests.</td></tr>
-  <tr><td><strong>⏱️ Local-model latency</strong></td><td>Comparing cold and warm runs and understanding hardware trade-offs.</td></tr>
-  <tr><td><strong>🧹 Messy operational data</strong></td><td>Reproducible pipelines, reconciliation, and explainable analytics.</td></tr>
-  <tr><td><strong>🧱 Prototype-to-product gap</strong></td><td>Clear boundaries, useful UX, logs, and build-time verification.</td></tr>
-</table>
+## 🕹️ Warp Pipe Arcade: Contribution Calendar
 
-<p align="center"><em>Build loop: Observe → Question → Prototype → Test → Learn → Ship → Repeat</em></p>
-
-## 🕹️ Contribution Arcade
-
-<p>The third-party activity-graph service previously used here has been unreliable, so this animation is generated by this repository's own GitHub Actions workflow and published to the <code>output</code> branch.</p>
+The contribution snake is generated by GitHub Actions and published to this repository's `output` branch.
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake.svg" />
-    <img alt="An animated snake navigating my GitHub contribution calendar" src="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake.svg" width="100%" />
+    <img src="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake.svg" alt="Animated snake navigating my GitHub contribution calendar" width="100%" />
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/suvendukungfu?tab=overview"><strong>View the actual contribution calendar on GitHub ↗</strong></a></p>
-
-<details>
-  <summary><strong>🧩 How the arcade works (click to expand)</strong></summary>
-
-  1. The workflow at <code>.github/workflows/generate-snake.yml</code> generates light- and dark-mode SVGs.
-  2. GitHub Actions publishes them to the <code>output</code> branch.
-  3. A scheduled run refreshes the animation daily.
-
-  <strong>First-time setup:</strong> Open the repository's <strong>Actions</strong> tab, select <strong>Generate Contribution Snake</strong>, and choose <strong>Run workflow</strong>. If publishing fails, check <strong>Settings → Actions → General → Workflow permissions</strong> and allow read/write access to repository contents. The output branch already contains the SVGs; run the workflow once to refresh them with the new purple/teal palette.
-</details>
-
-## Let's Connect
-
 <p align="center">
-  <a href="https://github.com/suvendukungfu"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="mailto:ssuvendukumar489@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Suvendu" /></a>
+  <a href="https://github.com/suvendukungfu?tab=overview"><strong>Inspect the real contribution calendar ↗</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/suvendukungfu/suvendukungfu/actions/workflows/generate-snake.yml"><strong>View the arcade workflow ↗</strong></a>
 </p>
 
-<p align="center"><em>"Build boldly. Learn constantly. Ship thoughtfully."</em></p>
+<details>
+  <summary><strong>🧩 How the arcade works</strong></summary>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2DD4BF,50:4F46E5,100:7C3AED&height=120&section=footer&animation=fadeIn" alt="Purple, indigo, and teal wave footer" />
+  1. `.github/workflows/generate-snake.yml` renders light- and dark-mode SVGs.
+  2. GitHub Actions publishes the generated files to the `output` branch.
+  3. A scheduled run refreshes the snake daily.
+
+  To manually refresh it, open the workflow link above and select **Run workflow** on `main`.
+</details>
+
+---
+
+## 📜 The Player's Rulebook
+
+```text
+Insert Coin → Explore → Prototype → Test → Stomp Bugs → Ship → Learn → Next World
+```
+
+I believe in small experiments, observable behavior, clear architecture, and honest documentation. Flashy demos are fun; software that behaves reliably when things go wrong is even better.
+
+## 🤝 2-Player Co-Op Mode
+
+Looking for a Player 2 for a hackathon, an AI experiment, or an open-source quest? Let's collaborate.
+
+<p align="center">
+  <a href="https://github.com/suvendukungfu"><img src="https://img.shields.io/badge/PLAYER%201-GitHub-E52521?style=for-the-badge&logo=github&logoColor=white" alt="Player 1: GitHub" /></a>
+  <a href="mailto:ssuvendukumar489@gmail.com"><img src="https://img.shields.io/badge/PLAYER%202-Email-009B48?style=for-the-badge&logo=gmail&logoColor=white" alt="Player 2: Email" /></a>
+</p>
+
+<p align="center"><em>“The code may be in another castle, but the next build starts right here.”</em></p>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:049CD8,35:009B48,70:FBD000,100:E52521&height=125&section=footer&animation=fadeIn" alt="Retro platformer-inspired footer with blue, green, yellow, and red colors" />
+</p>
