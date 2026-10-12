@@ -1,4 +1,4 @@
-name: Generate Spider-Verse Contribution Arena
+name: Generate Spider-Verse Profile Animation
 
 on:
   schedule:
@@ -19,6 +19,16 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate the cinematic Spider-Verse hero animation
+        run: |
+          mkdir -p dist
+          python .github/scripts/generate_spiderverse_arena.py dist/spiderverse-arena.svg
+
       - name: Generate the real contribution grid
         uses: Platane/snk/svg-only@v3
         with:
@@ -27,10 +37,10 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=%23E62429&color_dots=%23e9f4ff,%2345a7ff,%230c5ce8,%23E62429,%23FBD000
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FBD000&color_dots=%2310172b,%2345a7ff,%230c5ce8,%23E62429,%23FBD000
 
-      - name: Render the Spider-Verse city and swinging web-slinger
+      - name: Render animated Spider-Verse effects over the contribution grid
         run: node .github/scripts/spiderverse-overlay.mjs dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
 
-      - name: Publish contribution arenas to the output branch
+      - name: Publish profile animations to the output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
