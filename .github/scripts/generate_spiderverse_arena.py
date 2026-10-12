@@ -163,10 +163,10 @@ text{{font-family:'Share Tech Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,m
 @keyframes drift{{from{{transform:translateX(-320px)}}to{{transform:translateX({W + 320}px)}}}}
 .scan{{animation:scan 7s linear infinite}}
 @keyframes scan{{from{{transform:translateY(-24px)}}to{{transform:translateY({H + 10}px)}}}}
-.rig{{animation:path {TOTAL}s linear infinite}}
+.rig{{animation:path {TOTAL}s linear infinite;animation-delay:-1.5s}}
 .g1{{animation-delay:-.07s}}.g2{{animation-delay:-.14s}}.g3{{animation-delay:-.21s}}
 @keyframes path{{{''.join(hero_kf)}}}
-.web{{animation:webk {TOTAL}s linear infinite}}
+.web{{animation:webk {TOTAL}s linear infinite;animation-delay:-1.5s}}
 @keyframes webk{{{''.join(web_kf)}}}
 .lg1{{transform-origin:-3px 48px;animation:kick .75s ease-in-out infinite alternate}}
 .lg2{{transform-origin:3px 48px;animation:kick .75s ease-in-out infinite alternate-reverse}}
