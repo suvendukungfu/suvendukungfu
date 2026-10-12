@@ -102,7 +102,7 @@ Each mission links to its source — setup, tests, and status live in the repo.
         <img src="https://img.shields.io/badge/LangGraph-1687E8?style=flat-square" alt="LangGraph" />
         <img src="https://img.shields.io/badge/Explainable%20ML-E62429?style=flat-square" alt="Explainable ML" />
       </p>
-      <p><a href="https://huggingface.co/spaces/suvendukungfu/lexiq-legal-ai"><strong>▶ Live demo</strong></a></p>
+      <p><a href="https://huggingface.co/spaces/suvendukungfu/lexiq-legal-ai"><strong>Live demo</strong></a></p>
     </td>
   </tr>
   <tr>
