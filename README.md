@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/suvendukungfu">
-    <img width="100%" src="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/main/assets/spiderverse-profile-header.svg" alt="Spider-Verse: Suvendu — original red-and-blue web-slinger over a neon city skyline" />
+    <img width="100%" src="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/spiderverse-arena.svg" alt="Animated Spider-Verse night patrol: a red-and-blue web-slinger swinging across a parallax comic-book city" />
   </a>
 </p>
 
@@ -164,6 +164,22 @@ Each mission links to its source — setup, tests, and status live in the repo.
 | **Sandman** — messy operational data | Validation, reconciliation checks, repeatable pipelines |
 | **Venom** — regressions that return | Regression tests, build gates, careful change review |
 | **Electro** — invisible runtime failures | Useful logs, error boundaries, observable behavior |
+
+---
+
+## Animation Engine
+
+The animated masthead is generated from source code in the repository rather than relying on a third-party banner service. It includes:
+
+- Pendulum-style web swinging with six connected movement arcs and web-anchor changes.
+- Three independently scrolling skyline layers to create parallax depth.
+- Animated window lights, rooftop beacons, clouds, stars, and a moving scan line.
+- Comic-book impact bursts at web releases and a compact night-patrol HUD.
+- A reduced-motion fallback for visitors who prefer less movement.
+
+The generator creates `spiderverse-arena.svg` as part of the GitHub Actions workflow. The contribution arena below is a separate visualization driven by your real GitHub contribution grid.
+
+[View the animation generator](https://github.com/suvendukungfu/suvendukungfu/blob/main/.github/scripts/generate_spiderverse_arena.py) · [Run or inspect the animation workflow](https://github.com/suvendukungfu/suvendukungfu/actions/workflows/generate-snake.yml)
 
 ---
 
