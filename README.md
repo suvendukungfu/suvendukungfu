@@ -11,115 +11,118 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=suvendukungfu&label=CITY%20VISITS&color=E62429&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/suvendukungfu?label=THE%20NEIGHBORHOOD&style=flat-square&color=1687E8&labelColor=101827" alt="GitHub followers" />
-  <img src="https://img.shields.io/badge/ROLE-AI%20BUILDER-E62429?style=flat-square" alt="Role: AI builder" />
-  <img src="https://img.shields.io/badge/BASE-INDIA-1687E8?style=flat-square" alt="Base: India" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=18&duration=2600&pause=650&color=E62429&center=true&vCenter=true&width=850&height=64&lines=FRIENDLY+NEIGHBORHOOD.+SERIOUS+ENGINEERING.;SPIDER-SENSE+FOR+EDGE+CASES.;SWING+BETWEEN+IDEAS.+SHIP+THE+BUILD." alt="Animated tagline: friendly neighborhood, serious engineering" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=18&duration=2600&pause=650&color=E62429&center=true&vCenter=true&width=850&height=64&lines=FRIENDLY+NEIGHBORHOOD.+SERIOUS+ENGINEERING.;WITH+GREAT+POWER+COMES+GREAT+DEBUGGING.;SPIDER-SENSE+FOR+EDGE+CASES.;SWING+BETWEEN+IDEAS.+SHIP+THE+BUILD." alt="Comic-style developer status animation" />
+  <img src="https://komarev.com/ghpvc/?username=suvendukungfu&label=CITY%20VISITS&color=E62429&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/suvendukungfu?label=THE%20NEIGHBORHOOD&style=flat-square&color=1687E8&labelColor=101827" alt="GitHub followers" />
+  <img src="https://img.shields.io/badge/ROLE-AI%20%26%20FULL--STACK%20ENGINEER-E62429?style=flat-square" alt="Role: AI and full-stack engineer" />
+  <img src="https://img.shields.io/badge/BASE-INDIA-1687E8?style=flat-square" alt="Base: India" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20COLLAB-E62429?style=flat-square" alt="Open to collaboration" />
 </p>
-
-<p align="center"><strong>With great power comes great debugging.</strong></p>
 
 ---
 
 ## Origin Story
 
-I'm **Suvendu Kumar Sahoo** — a developer building at the intersection of **AI systems, full-stack engineering, and practical automation**.
+I'm **Suvendu Kumar Sahoo** — an engineer who builds **AI systems, full-stack products, and automation** that survive contact with real users.
 
-Think of this profile as my own developer Spider-Verse: each repository is another dimension, each bug is a villain with a weakness, and each release is a web-line that connects an idea to something people can use.
-
-I like prototypes, but I care just as much about the engineering underneath them: validation, testable behavior, clear architecture, data integrity, useful interfaces, and honest evaluation.
+> **One-line pitch:** I turn ambitious experiments into reliable software — with validation, tests, clear architecture, and honest evaluation underneath the demo.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>SPIDER-SENSE</h3>
-      Spot the edge cases before they become production incidents. Validate inputs, test failure paths, and question surprising results.
+      Catch edge cases before they become incidents. Validate inputs, test failure paths, question surprising results.
     </td>
     <td width="50%" valign="top">
       <h3>WEB-SHOOTERS</h3>
-      Build useful connections between APIs, interfaces, models, data pipelines, and automation.
+      Connect APIs, interfaces, models, and data pipelines into workflows people actually use.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>WALL-CRAWLER MODE</h3>
-      Move across the stack: from product interface to service boundary, from experiment to test, from model output to user experience.
+      Move across the stack: product interface → service boundary → model output → user experience.
     </td>
     <td width="50%" valign="top">
       <h3>NEIGHBORHOOD FIRST</h3>
-      Favor software that solves a real problem, explains its behavior, and stays maintainable after the demo.
+      Software that solves a real problem, explains its behavior, and stays maintainable after the demo.
     </td>
   </tr>
 </table>
 
-### Current Suit Configuration
+### Suit Configuration
 
 ```yaml
 identity: Suvendu Kumar Sahoo
-mode: AI Builder / Full-Stack Developer
+mode: AI Builder / Full-Stack Engineer
 location: India
-active_dimensions:
-  - Agentic AI and LLM applications
-  - TypeScript, React, Next.js, and Node.js
-  - Python, machine learning, and computer vision
-  - Data workflows, testing, and automation
-allies:
-  - Open-source contributors
-  - Hackathon teams
-  - Builders solving practical problems
-prime_directive: Turn ambitious experiments into useful software
+focus:
+  - Agentic AI and LLM applications (structured output, evals, fallbacks)
+  - TypeScript, React, Next.js, Node.js
+  - Python, ML, computer vision
+  - Data workflows, testing, automation
+principles:
+  - Validate at the boundary
+  - Fail safely and visibly
+  - Measure before claiming
+open_to: [open-source, hackathons, AI experiments, practical product ideas]
 ```
+
+---
 
 ## Multiverse Mission Board
 
-Each mission links to its source repository. Explore the implementation, setup, tests, and current status directly in the project.
+Each mission links to its source — setup, tests, and status live in the repo.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <p><strong>EARTH-001 / THE OUTDOOR DIMENSION</strong></p>
       <h3><a href="https://github.com/suvendukungfu/traillens">TrailLens</a></h3>
-      <p><strong>Threat:</strong> Too much screen time, too little real-world discovery.</p>
-      <p>An outdoor-exploration app using Gemma 3 4B through Ollama to analyze field images and turn observations into real-world challenges. The engineering focus includes local inference, validated payloads, and safe fallbacks.</p>
+      <p><strong>Problem:</strong> Too much screen time, too little real-world discovery.</p>
+      <p><strong>Approach:</strong> Local inference with Gemma 3 4B via Ollama analyzes field images and turns observations into real-world challenges.</p>
+      <p><strong>Engineering focus:</strong> validated payloads, safe fallbacks, local-first AI.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Local%20AI-Ollama-1687E8?style=flat-square" alt="Local AI with Ollama" />
+        <img src="https://img.shields.io/badge/Ollama-1687E8?style=flat-square" alt="Ollama" />
       </p>
     </td>
     <td width="50%" valign="top">
       <p><strong>EARTH-002 / THE CONTRACT DIMENSION</strong></p>
       <h3><a href="https://github.com/suvendukungfu/Intelligent-Contract-Risk-Analysis-and-Agentic-Legal-Assistance-System">LexIQ</a></h3>
-      <p><strong>Threat:</strong> Risky clauses hidden in dense legal documents.</p>
-      <p>A contract-review project combining interpretable clause classification, hybrid retrieval, and a LangGraph-orchestrated LLM workflow to help surface potentially risky clauses and structure review findings.</p>
+      <p><strong>Problem:</strong> Risky clauses hidden in dense legal documents.</p>
+      <p><strong>Approach:</strong> Interpretable clause classification + hybrid retrieval + a LangGraph-orchestrated LLM workflow that structures review findings.</p>
+      <p><strong>Engineering focus:</strong> explainability, retrieval quality, orchestrated agents.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Explainable%20ML-E62429?style=flat-square" alt="Explainable machine learning" />
         <img src="https://img.shields.io/badge/LangGraph-1687E8?style=flat-square" alt="LangGraph" />
+        <img src="https://img.shields.io/badge/Explainable%20ML-E62429?style=flat-square" alt="Explainable ML" />
       </p>
-      <p><a href="https://huggingface.co/spaces/suvendukungfu/lexiq-legal-ai">Open the live demo</a></p>
+      <p><a href="https://huggingface.co/spaces/suvendukungfu/lexiq-legal-ai"><strong>▶ Live demo</strong></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <p><strong>EARTH-003 / THE WORKFORCE WATCHTOWER</strong></p>
       <h3><a href="https://github.com/suvendukungfu/Exitlens-">ExitLens</a></h3>
-      <p><strong>Threat:</strong> Fragmented HR spreadsheets and disconnected workforce signals.</p>
-      <p>An employee-exit intelligence platform focused on turning HR data into structured workforce insights, with auditability, multi-facility workflows, and analytics as important design concerns.</p>
+      <p><strong>Problem:</strong> Fragmented HR spreadsheets and disconnected workforce signals.</p>
+      <p><strong>Approach:</strong> Employee-exit intelligence platform that turns HR data into structured workforce insights across facilities.</p>
+      <p><strong>Engineering focus:</strong> auditability, multi-facility workflows, analytics.</p>
       <p>
         <img src="https://img.shields.io/badge/Workforce%20Analytics-E62429?style=flat-square" alt="Workforce analytics" />
-        <img src="https://img.shields.io/badge/Full--Stack-1687E8?style=flat-square" alt="Full-stack engineering" />
+        <img src="https://img.shields.io/badge/Full--Stack-1687E8?style=flat-square" alt="Full-stack" />
       </p>
     </td>
     <td width="50%" valign="top">
       <p><strong>EARTH-004 / THE DEVELOPER DIMENSION</strong></p>
       <h3><a href="https://github.com/suvendukungfu/nexus-cli">Nexus DevTools CLI</a></h3>
-      <p><strong>Threat:</strong> Repeated development tasks and fragmented tooling.</p>
-      <p>A command-line toolkit exploring consistent subcommands, typed validation, shared API clients, and reusable utilities for day-to-day development workflows.</p>
+      <p><strong>Problem:</strong> Repeated dev tasks and fragmented tooling.</p>
+      <p><strong>Approach:</strong> One CLI with consistent subcommands, shared API clients, and reusable utilities.</p>
+      <p><strong>Engineering focus:</strong> typed validation, ergonomics, composability.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Developer%20Tools-1687E8?style=flat-square" alt="Developer tools" />
@@ -128,25 +131,25 @@ Each mission links to its source repository. Explore the implementation, setup, 
   </tr>
 </table>
 
-<p align="center"><a href="https://github.com/suvendukungfu?tab=repositories"><strong>OPEN THE MULTIVERSE: EXPLORE ALL REPOSITORIES</strong></a></p>
+<p align="center"><a href="https://github.com/suvendukungfu?tab=repositories"><strong>EXPLORE ALL REPOSITORIES →</strong></a></p>
 
 ---
 
 ## Suit Technology
 
-### Web-Shooters / Languages and Web
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,html,css,react,nextjs,nodejs,express,tailwind&theme=dark" alt="JavaScript, TypeScript, Python, HTML, CSS, React, Next.js, Node.js, Express, and Tailwind CSS" />
-</p>
+| Layer | Stack |
+| --- | --- |
+| **Web** | <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,tailwind,html,css&theme=dark" alt="Web stack" /> |
+| **AI / ML / Data** | <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,mongodb,postgres&theme=dark" alt="AI, ML and data stack" /> |
+| **Tooling** | <img src="https://skillicons.dev/icons?i=git,github,linux,docker,figma,vercel,netlify,vscode&theme=dark" alt="Tooling" /> |
 
-### Spider-Sense / AI, ML, and Data
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,mongodb,postgres&theme=dark" alt="PyTorch, TensorFlow, OpenCV, MongoDB, and PostgreSQL" />
-</p>
+---
 
-### Stark-Style Workshop / Tools and Platforms
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,docker,figma,vercel,netlify,vscode&theme=dark" alt="Git, GitHub, Linux, Docker, Figma, Vercel, Netlify, and VS Code" />
+## Telemetry
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=suvendukungfu&show_icons=true&hide_border=true&bg_color=0D1220&title_color=E62429&icon_color=1687E8&text_color=E6EDF3&ring_color=E62429" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvendukungfu&layout=compact&hide_border=true&bg_color=0D1220&title_color=E62429&text_color=E6EDF3" alt="Top languages" />
 </p>
 
 ---
@@ -155,48 +158,46 @@ Each mission links to its source repository. Explore the implementation, setup, 
 
 | Villain | Engineering counter-move |
 | --- | --- |
-| **Green Goblin: unpredictable AI output** | Structured-output validation, deterministic fallbacks, and evaluation tests |
-| **Doctor Octopus: tangled system boundaries** | Clear service contracts, explicit state, modular orchestration, and traceable failures |
-| **Mysterio: misleading metrics** | Source-backed measurements, reproducible analysis, and transparent assumptions |
-| **Sandman: messy operational data** | Data validation, reconciliation checks, and repeatable pipelines |
-| **Venom: regressions that come back** | Regression tests, build gates, and careful change review |
-| **Electro: invisible runtime failures** | Useful logs, error boundaries, and observable behavior |
-
-<p align="center"><em>No imaginary power levels here. The goal is to measure, learn, fix, and improve.</em></p>
+| **Green Goblin** — unpredictable AI output | Structured-output validation, deterministic fallbacks, evaluation tests |
+| **Doctor Octopus** — tangled system boundaries | Service contracts, explicit state, modular orchestration, traceable failures |
+| **Mysterio** — misleading metrics | Source-backed measurements, reproducible analysis, stated assumptions |
+| **Sandman** — messy operational data | Validation, reconciliation checks, repeatable pipelines |
+| **Venom** — regressions that return | Regression tests, build gates, careful change review |
+| **Electro** — invisible runtime failures | Useful logs, error boundaries, observable behavior |
 
 ---
 
-## The Spider-Verse Contribution Arena
+## Contribution Arena
 
-The contribution grid remains your **real GitHub contribution history**. The custom animation turns the area beneath it into a comic-book city scene: web lines, skyline, moonlight, a swinging red-and-blue wall-crawler, suit details, and a city-sector mission overlay.
+The grid is my **real GitHub contribution history**; the scene around it is a generated comic-book city with a swinging wall-crawler.
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake.svg" alt="Spider-Man-inspired original wall-crawler swinging across a comic-book city beneath the real contribution grid" width="100%" />
+    <img src="https://raw.githubusercontent.com/suvendukungfu/suvendukungfu/output/github-contribution-grid-snake.svg" alt="Original wall-crawler swinging across a comic-book city beneath the real contribution grid" width="100%" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/suvendukungfu?tab=overview"><strong>VIEW THE LIVE CONTRIBUTION CALENDAR</strong></a>
+  <a href="https://github.com/suvendukungfu?tab=overview"><strong>LIVE CONTRIBUTION CALENDAR</strong></a>
   &nbsp;|&nbsp;
-  <a href="https://github.com/suvendukungfu/suvendukungfu/actions/workflows/generate-snake.yml"><strong>REFRESH THE CONTRIBUTION ARENA</strong></a>
+  <a href="https://github.com/suvendukungfu/suvendukungfu/actions/workflows/generate-snake.yml"><strong>REFRESH THE ARENA</strong></a>
 </p>
 
 <details>
   <summary><strong>How the arena is generated</strong></summary>
 
-  1. GitHub Actions generates the light- and dark-mode contribution heatmaps from real profile activity.
-  2. A repository-owned SVG script adds the original web-slinger, swinging strand, city skyline, windows, comic halftone details, and mission HUD.
-  3. The output SVGs are published to the `output` branch and updated on pushes to `main` and a daily schedule.
+  1. GitHub Actions generates light/dark contribution heatmaps from real profile activity.
+  2. A repo-owned SVG script adds the web-slinger, strand, skyline, windows, halftone details, and mission HUD.
+  3. Output SVGs publish to the `output` branch on pushes to `main` and a daily schedule.
 
-  To refresh manually, open the workflow above and select **Run workflow** on `main`. The newest scene appears after the run completes successfully.
+  Manual refresh: open the workflow above → **Run workflow** on `main`.
 </details>
 
 ---
 
-## Spider-Sense Development Loop
+## Development Loop
 
 ```text
 SPOT THE SIGNAL
@@ -211,11 +212,13 @@ TEST EDGE CASES <------ VALIDATE THE RESULT
 SHIP SAFELY --> WATCH THE SIGNALS --> ITERATE
 ```
 
-I believe strong software comes from curiosity backed by engineering discipline. Move fast when exploring; slow down where correctness, data, and reliability matter.
+Move fast when exploring; slow down where correctness, data, and reliability matter.
+
+---
 
 ## Friendly Neighborhood / Co-op
 
-For open-source collaboration, hackathons, AI experiments, and practical product ideas, connect here.
+Open-source collaboration, hackathons, AI experiments, practical product ideas — reach out.
 
 <p align="center">
   <a href="https://github.com/suvendukungfu"><img src="https://img.shields.io/badge/GITHUB-PROFILE-E62429?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
